@@ -35,7 +35,7 @@ class SingleModelAgent:
     MODELS = {
         "qwen3_coder": ModelConfig(
             file="Qwen3-Coder-30B-A3B-Instruct-UD-Q6_K_XL.gguf",
-            template="qwen3",
+            template="qwen2",
             capabilities=["coding", "reasoning", "orchestration", "creative_writing"],
             vram_estimate=28,
             context_size=131072,
@@ -112,8 +112,7 @@ class SingleModelAgent:
             "--model", str(model_path),
             "--port", str(port),
             "--ctx-size", str(config.context_size),
-            "--n-gpu-layers", "-1",
-            "--chat-template", config.template,
+            "--n-gpu-layers", "28",
             "--host", "0.0.0.0"
         ]
         

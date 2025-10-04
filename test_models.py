@@ -11,6 +11,7 @@ import argparse
 import json
 from pathlib import Path
 from agentic_plot.single_model_agent import SingleModelAgent
+from datetime import datetime
 
 
 def create_creative_writing_tests() -> list:
@@ -139,7 +140,7 @@ def generate_comparison_report(all_results: list, output_dir: str = "comparison_
 
 ## Test Overview
 
-**Date**: {Path().ctime()}
+**Date**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 **VRAM Constraint**: 32GB (RTX 5090)
 **Models Tested**: {len(all_results)}
 
