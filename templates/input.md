@@ -24,6 +24,6 @@ Mal Angrydude has found a weapon that threatens the very existence of Name-of-pl
 
 John Johnson evades all of Mal Angrydude's henchmen and stops Mal from using the weapon, therefore saving Name-of-place
 
-### Ending truncatewords
+### Ending two
 
 John Johnson evades all of Mal Angrydude's henchmen only to discover that Mal Angrydude is his brother, and joins forces with him to use the weapon.

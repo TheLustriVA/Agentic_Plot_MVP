@@ -209,3 +209,6 @@ __marimo__/
 # Local
 comparison_results/*
 templates/*
+outputs_dark_reasoning/
+outputs_qwen3_coder/
+outputs_qwq_planet/

@@ -111,7 +111,7 @@ def run_single_model_test(model_name: str, agent: SingleModelAgent, input_file: 
         # Run story generation if input file provided
         if input_file and Path(input_file).exists():
             print("\n📚 Generating Complete Story Output...")
-            story_outputs = agent.generate_full_story_output(input_file, f"outputs_{model_name}")
+            story_outputs = agent.generate_full_story_output(input_file, f"outputs/{model_name}")
             results["story_generation"] = story_outputs
             
             print("✅ Story generation completed!")
